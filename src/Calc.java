@@ -1,8 +1,4 @@
-## Завдання №5
-### Обчислити суму елементів матриці розміром N x M
 
-### клас Calc
-```java
 import java.util.Random;
 import java.util.stream.IntStream;
 
@@ -40,19 +36,3 @@ public class Calc {
         }
     }
 }
-```
-### клас Main
-```java 
-import java.util.Arrays;
-
-public class Main {
-
-    public static void main(String[] args) {
-        Calc calc = new Calc();
-        calc.SumOfArray();
-    }
-}
-```
-
-### Результат роботи програми 
-<img src="https://github.com/ppc-ntu-khpi/35-advarrays-pOpovich69/blob/master/img/1.png">
